@@ -1,0 +1,1 @@
+import"./DlpIbxXb.js";import{a as e}from"./CBMFjqeg.js";export{e as createArchitectureServices};

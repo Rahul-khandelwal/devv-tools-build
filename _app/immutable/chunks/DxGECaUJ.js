@@ -1,0 +1,1 @@
+import{nt as e}from"./Dl7bEh7c.js";import"./DZ5kF_Cl.js";function t(t,n){let r=typeof window<`u`,i=r?sessionStorage.getItem(t):null,a=e(i?JSON.parse(i):n);return r&&a.subscribe(e=>{sessionStorage.setItem(t,JSON.stringify(e))}),a}var n=e(``);function r(e,t=2e3){n.set(e),setTimeout(()=>{n.update(t=>t===e?``:t)},t)}export{r as n,n as r,t};
