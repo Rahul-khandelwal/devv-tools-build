@@ -1,1 +1,0 @@
-import{h as e,p as t}from"./CnaidWtP.js";import{x as n}from"./BwTqGt-a.js";var r=e(e=>{let{securityLevel:r}=n(),i=t(`body`);return r===`sandbox`&&(i=t((t(`#i${e}`).node()?.contentDocument??document).body)),i.select(`#${e}`)},`selectSvgElement`);export{r as t};

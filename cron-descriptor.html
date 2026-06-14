@@ -4,23 +4,37 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="text-scale" content="scale" />
-		<link href="./_app/immutable/entry/start.NKhEwDBV.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/BLnT_uVz.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/Dl7bEh7c.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/DZ5kF_Cl.js" rel="modulepreload">
-		<link href="./_app/immutable/entry/app.DWPMC-7J.js" rel="modulepreload">
+		<script>
+        (function() {
+            try {
+                var theme = localStorage.getItem('app-theme');
+                if (theme) theme = JSON.parse(theme);
+                if (theme === 'light' || theme === 'dark') {
+                    document.documentElement.setAttribute('data-theme', theme);
+                } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+                    document.documentElement.setAttribute('data-theme', 'light');
+                } else {
+                    document.documentElement.setAttribute('data-theme', 'dark');
+                }
+            } catch (e) {}
+        })();
+    </script>
+		<link href="./_app/immutable/entry/start.DZSievZb.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/Dxxz39z4.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BoFoC4GG.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/Bi0AcZ5o.js" rel="modulepreload">
+		<link href="./_app/immutable/entry/app.DouMH_AC.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/kNaey6uv.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/xihTtKlq.js" rel="modulepreload">
-		<link href="./_app/immutable/nodes/0.T5VaUWPQ.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/BG_bmF4v.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/DxGECaUJ.js" rel="modulepreload">
-		<link href="./_app/immutable/nodes/4.DKbtXkOQ.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/CV4o5nUn.js" rel="modulepreload">
-		<!--s4thi9--><meta name="description" content="Fast, client-side cron expression parser and descriptor. Translate complex cron schedules into plain English instantly."/> <meta name="keywords" content="cron parser, cron descriptor, cron expression explainer, crontab guru alternative"/> <meta name="robots" content="index, follow"/> <meta name="theme-color" content="#1e293b"/> <link rel="canonical" href="https://devvtools.com/cron-descriptor"/> <meta property="og:type" content="website"/> <meta property="og:url" content="https://devvtools.com/cron-descriptor"/> <meta property="og:title" content="Cron Expression Descriptor | DevvTools"/> <meta property="og:description" content="Fast, client-side cron expression parser and descriptor. Translate complex cron schedules into plain English instantly."/> <meta property="og:image" content="https://devvtools.com/og-image.png"/> <meta name="twitter:card" content="summary_large_image"/> <meta name="twitter:title" content="Cron Expression Descriptor | DevvTools"/> <meta name="twitter:description" content="Fast, client-side cron expression parser and descriptor. Translate complex cron schedules into plain English instantly."/> <meta name="twitter:image" content="https://devvtools.com/og-image.png"/> <script type="application/ld+json">
+		<link href="./_app/immutable/nodes/0.wR8zscx3.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BBfgtVkG.js" rel="modulepreload">
+		<link href="./_app/immutable/nodes/4.BkCYQZkY.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/NRmwIPws.js" rel="modulepreload">
+		<!--s4thi9--><meta name="description" content="Fast, client-side cron expression parser and descriptor. Translate complex cron schedules into plain English instantly."/> <meta name="keywords" content="cron parser, cron descriptor, cron expression explainer, crontab guru alternative"/> <meta name="robots" content="index, follow"/> <meta name="theme-color" content="#0f172a"/> <link rel="canonical" href="https://devvtools.com/cron-descriptor"/> <meta property="og:type" content="website"/> <meta property="og:url" content="https://devvtools.com/cron-descriptor"/> <meta property="og:title" content="Cron Expression Descriptor | DevvTools"/> <meta property="og:description" content="Fast, client-side cron expression parser and descriptor. Translate complex cron schedules into plain English instantly."/> <meta property="og:image" content="https://devvtools.com/og-image.png"/> <meta name="twitter:card" content="summary_large_image"/> <meta name="twitter:title" content="Cron Expression Descriptor | DevvTools"/> <meta name="twitter:description" content="Fast, client-side cron expression parser and descriptor. Translate complex cron schedules into plain English instantly."/> <meta name="twitter:image" content="https://devvtools.com/og-image.png"/> <script type="application/ld+json">
         {@html JSON.stringify(schemaOrg)}
     </script><!----><title>Cron Expression Descriptor | DevvTools</title>
-		<link href="./_app/immutable/assets/0.FiW5RLdx.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/4.a1zeqzIE.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/0.BHNWBP8w.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/4.D_2MAn1d.css" rel="stylesheet">
 		
 		<!-- Google Analytics 4 -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
@@ -28,25 +42,26 @@
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
+		  gtag('config', 'G-XXXXXXXXXX');
 		</script>
 		
 		<!-- Google AdSense (Commented out for local testing so placeholders remain visible) -->
 		<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents"><!--[--><!--[0--><!--[--><div class="app-layout svelte-12qhfyh"><nav class="sidebar svelte-12qhfyh"><div class="logo svelte-12qhfyh"><span class="logo-icon svelte-12qhfyh">⚡</span> <a href="/" style="text-decoration:none; color:inherit;"><h1 class="svelte-12qhfyh">DevTools</h1></a></div> <ul class="nav-links svelte-12qhfyh"><!--[--><li class="svelte-12qhfyh"><a href="/json-formatter" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">📝</span> JSON Formatter</a></li><li class="svelte-12qhfyh"><a href="/jwt-debugger" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">🔑</span> JWT Debugger</a></li><li class="svelte-12qhfyh"><a href="/base64-encoder" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">🔤</span> Base64 Encoder</a></li><li class="svelte-12qhfyh"><a href="/url-encoder" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">🔗</span> URL Encoder</a></li><li class="svelte-12qhfyh"><a href="/yaml-converter" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">🔄</span> YAML Converter</a></li><li class="svelte-12qhfyh"><a href="/regex-tester" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">🔍</span> Regex Tester</a></li><li class="svelte-12qhfyh"><a href="/timezone-converter" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">🌍</span> Timezone Converter</a></li><li class="svelte-12qhfyh"><a href="/uuid-generator" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">🏷️</span> UUID Generator</a></li><li class="svelte-12qhfyh"><a href="/hash-generator" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">🔐</span> Hash Generator</a></li><li class="svelte-12qhfyh"><a href="/cron-descriptor" class="svelte-12qhfyh active"><span class="nav-icon svelte-12qhfyh">⏱️</span> Cron Descriptor</a></li><li class="svelte-12qhfyh"><a href="/drawing-tool" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">✏️</span> Whiteboard</a></li><!--]--></ul> <div class="adsense-sidebar svelte-12qhfyh"><ins class="adsbygoogle" style="display:flex; width: 100%; height: 250px; justify-content: center; align-items: center; background: var(--ad-bg); border: 1px dashed var(--border-color); border-radius: 8px; color: var(--text-muted); text-transform: uppercase; font-size: 0.85rem;" data-ad-client="ca-pub-XXXXXXXXXXXXX" data-ad-slot="XXXXX" data-ad-format="auto" data-full-width-responsive="true">Ad Zone (Sidebar)</ins></div></nav> <main class="content svelte-12qhfyh"><header class="topbar svelte-12qhfyh"><div class="adsense-leaderboard svelte-12qhfyh"><ins class="adsbygoogle" style="display:flex; width: 100%; height: 90px; justify-content: center; align-items: center; background: var(--ad-bg); border: 1px dashed var(--border-color); border-radius: 8px; color: var(--text-muted); text-transform: uppercase; font-size: 0.85rem;" data-ad-client="ca-pub-XXXXXXXXXXXXX" data-ad-slot="XXXXX" data-ad-format="auto" data-full-width-responsive="true">Ad Zone (Leaderboard)</ins></div></header> <div class="tool-container svelte-12qhfyh"><!--[--><!--[--><!----> <div class="tool-wrapper svelte-9oe83n"><div class="header svelte-9oe83n"><h2 class="svelte-9oe83n">Cron Expression Descriptor</h2> <div class="actions svelte-9oe83n"><button class="btn btn-secondary svelte-9oe83n">Clear Input</button></div></div> <div class="workspace svelte-9oe83n"><div class="editor-pane svelte-9oe83n"><label for="cron-input" class="svelte-9oe83n">Cron Expression</label> <div class="cron-input-container svelte-9oe83n"><input id="cron-input" type="text" value="* * * * *" placeholder="e.g. 0 12 * * ?" class="svelte-9oe83n"/></div> <div class="helper-text svelte-9oe83n">Format: <code>minute hour day(month) month day(week)</code></div></div> <div class="editor-pane svelte-9oe83n"><label class="svelte-9oe83n">Human Readable Description</label> <!--[1--><div class="cron-output svelte-9oe83n"><h3 class="svelte-9oe83n">Every minute</h3></div><!--]--></div></div></div><!----><!--]--><!--]--></div></main> <!--[-1--><!--]--></div><!--]--><!--]--> <!--[-1--><!--]--><!--]-->
+		<div style="display: contents"><!--[--><!--[0--><!--[--><div class="app-layout svelte-12qhfyh"><nav class="sidebar svelte-12qhfyh"><div class="logo svelte-12qhfyh"><div style="display:flex; align-items:center; gap: 12px; flex-grow: 1;"><span class="logo-icon svelte-12qhfyh">⚡</span> <a href="/" style="text-decoration:none; color:inherit;"><h1 class="svelte-12qhfyh">DevvTools</h1></a></div> <button class="theme-toggle svelte-1kenrq5" aria-label="Toggle theme"><!--[-1--><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg><!--]--></button><!----></div> <ul class="nav-links svelte-12qhfyh"><!--[--><li class="svelte-12qhfyh"><a href="/json-formatter" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">📝</span> JSON Formatter</a></li><li class="svelte-12qhfyh"><a href="/jwt-debugger" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">🔑</span> JWT Debugger</a></li><li class="svelte-12qhfyh"><a href="/base64-encoder" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">🔤</span> Base64 Encoder</a></li><li class="svelte-12qhfyh"><a href="/url-encoder" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">🔗</span> URL Encoder</a></li><li class="svelte-12qhfyh"><a href="/yaml-converter" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">🔄</span> YAML Converter</a></li><li class="svelte-12qhfyh"><a href="/regex-tester" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">🔍</span> Regex Tester</a></li><li class="svelte-12qhfyh"><a href="/timezone-converter" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">🌍</span> Timezone Converter</a></li><li class="svelte-12qhfyh"><a href="/uuid-generator" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">🏷️</span> UUID Generator</a></li><li class="svelte-12qhfyh"><a href="/hash-generator" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">🔐</span> Hash Generator</a></li><li class="svelte-12qhfyh"><a href="/cron-descriptor" class="svelte-12qhfyh active"><span class="nav-icon svelte-12qhfyh">⏱️</span> Cron Descriptor</a></li><li class="svelte-12qhfyh"><a href="/drawing-tool" class="svelte-12qhfyh"><span class="nav-icon svelte-12qhfyh">✏️</span> Whiteboard</a></li><!--]--></ul> <div class="adsense-sidebar svelte-12qhfyh"><div class="ad-wrapper svelte-1qlf04p"><!--[0--><div class="ad-placeholder svelte-1qlf04p" style="display:flex; width: 100%; height: 250px;">Ad Zone (Sidebar)</div><!--]--></div><!----></div></nav> <main class="content svelte-12qhfyh"><header class="topbar svelte-12qhfyh"><div class="adsense-leaderboard svelte-12qhfyh"><div class="ad-wrapper svelte-1qlf04p"><!--[0--><div class="ad-placeholder svelte-1qlf04p" style="display:flex; width: 100%; height: 90px;">Ad Zone (Leaderboard)</div><!--]--></div><!----></div></header> <div class="tool-container svelte-12qhfyh"><!--[--><!--[--><!----> <div class="tool-wrapper svelte-9oe83n"><div class="header svelte-9oe83n"><h2 class="svelte-9oe83n">Cron Expression Descriptor</h2> <div class="actions svelte-9oe83n"><button class="btn btn-secondary svelte-9oe83n">Clear Input</button></div></div> <div class="workspace svelte-9oe83n"><div class="editor-pane svelte-9oe83n"><label for="cron-input" class="svelte-9oe83n">Cron Expression</label> <div class="cron-input-container svelte-9oe83n"><input id="cron-input" type="text" value="* * * * *" placeholder="e.g. 0 12 * * ?" class="svelte-9oe83n"/></div> <div class="helper-text svelte-9oe83n">Format: <code>minute hour day(month) month day(week)</code></div></div> <div class="editor-pane svelte-9oe83n"><label class="svelte-9oe83n">Human Readable Description</label> <!--[1--><div class="cron-output svelte-9oe83n"><h3 class="svelte-9oe83n">Every minute</h3></div><!--]--></div></div></div><!----><!--]--><!--]--></div></main> <!--[-1--><!--]--></div><!--]--><!--]--> <!--[-1--><!--]--><!--]-->
 			
 			<script>
 				{
-					__sveltekit_1auxim5 = {
+					__sveltekit_1ceuzdi = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.NKhEwDBV.js"),
-						import("./_app/immutable/entry/app.DWPMC-7J.js")
+						import("./_app/immutable/entry/start.DZSievZb.js"),
+						import("./_app/immutable/entry/app.DouMH_AC.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 4],
